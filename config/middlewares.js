@@ -18,7 +18,7 @@ module.exports = [
  {
     name: 'strapi::cors',
     config: {
-      origin: ['https://aasthaparivaar.org','https://69.62.75.177', 'http://69.62.75.177:1337','https://www.aasthaparivaar.org','https://frontend-two-blue-63.vercel.app'], // Add your Next.js and Strapi origins
+      origin: ['https://aasthaparivaar.org','https://69.62.75.177', 'http://69.62.75.177:1337','https://www.aasthaparivaar.org','http://localhost:5001','https://frontend-two-blue-63.vercel.app'], // Add your Next.js and Strapi origins
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
       headers: ['Content-Type', 'Authorization'],
     },
